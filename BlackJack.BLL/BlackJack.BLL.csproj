@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlackJack.DAL\BlackJack.DAL.csproj" />
+    <ProjectReference Include="..\BlackJack.Utitlity\BlackJack.Utitlity.csproj" />
+    <ProjectReference Include="..\BlackJack.ViewModels\BlackJack.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
